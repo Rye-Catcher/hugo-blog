@@ -4,8 +4,8 @@ title = 'Xiaoteng Blog'
 theme = "book"
 
 # Book configuration
-#disablePathToLower = true
-#enableGitInfo = true
+disablePathToLower = true
+enableGitInfo = true
 
 # Needed for mermaid/katex shortcodes
 [markup]
@@ -18,14 +18,10 @@ theme = "book"
 [menu]
 # [[menu.before]]
 [[menu.after]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
+  name = "Github Repo"
+  url = "https://github.com/Rye-Catcher/hugo-blog"
   weight = 10
 
-[[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/hugo-book/"
-  weight = 20
 
 [params]
   BookTheme = 'dark'
@@ -33,3 +29,5 @@ theme = "book"
   #BookMenuBundle = '/menu'
   BookSection = 'posts'
   BookSearch = true
+  BookComment = true
+  BookRepo = 'https://github.com/Rye-Catcher/hugo-blog'
