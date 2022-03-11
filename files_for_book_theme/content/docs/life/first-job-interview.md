@@ -1,9 +1,12 @@
 ---
 title: "First Job Interview"
 date: 2022-03-11T14:36:05+08:00
+tags: ["面试"]
+categories: ["life"]
 # bookComments: false
 # bookSearchExclude: false
 ---
+
 
 我也没想到时间过得这么快，我也有了找实习的压力。按照 NUS 的实习要求，若是我能在这个暑期找到个三个月的实习，我剩下两年的排课就会很轻松。
 
