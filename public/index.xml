@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaoteng Blog</title>
+    <link>https://x1a0teng.page/</link>
+    <description>Recent content on Xiaoteng Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Feb 2022 00:50:50 +0800</lastBuildDate><atom:link href="https://x1a0teng.page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://x1a0teng.page/posts/about/</link>
+      <pubDate>Mon, 21 Feb 2022 00:50:50 +0800</pubDate>
+      
+      <guid>https://x1a0teng.page/posts/about/</guid>
+      <description>Hi, I am Xiaoteng. Currently a 2nd year CS undergrdaute @National University of Singapore I developed the habbit of writing blogs when I was still in high school, struggling for competitive programming as well as Gaokao.
+But later, I was lucky enough to gain a chance to study in Singapore. No more struggling for these two! Nonetheless they did have shaped me a lot. I still remember that night, my dormmates and I came back to the dormitory from classrooms at 11pm, but still discussed all the night around a prime number ring problem on an old-fashioned algorithm exercise book under dim light.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://x1a0teng.page/posts/my-first-post/</link>
+      <pubDate>Mon, 21 Feb 2022 00:50:50 +0800</pubDate>
+      
+      <guid>https://x1a0teng.page/posts/my-first-post/</guid>
+      <description>Hello World</description>
+    </item>
+    
+  </channel>
+</rss>
