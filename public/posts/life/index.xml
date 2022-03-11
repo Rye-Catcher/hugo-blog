@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xiaoteng Blog</title>
-    <link>https://x1a0teng.page/</link>
-    <description>Recent content on Xiaoteng Blog</description>
+    <title>Life on Xiaoteng Blog</title>
+    <link>https://x1a0teng.page/posts/life/</link>
+    <description>Recent content in Life on Xiaoteng Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Mar 2022 14:36:05 +0800</lastBuildDate><atom:link href="https://x1a0teng.page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 14:35:52 +0800</lastBuildDate><atom:link href="https://x1a0teng.page/posts/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Job Interview</title>
       <link>https://x1a0teng.page/posts/life/first-job-interview/</link>
@@ -23,25 +23,6 @@ B 公司则非常好，投的当天下午就通知我简历过了，准备这周
 然后就是正式面试了，一开始他就自我介绍了一下他和整个团队是做什么的，面试会怎么进行之类的
 第一个环节差不多就是自我介绍，同时针对我简历上的问题进行提问。当时呢。。。我非常蠢的忘记准备自我介绍，于是只好当场扯几句出来，基本都是简历上写着的，有点尴尬说实话。然后就让我介绍简历上的 project，比较尴尬的事是实习岗位要求的语言是 C++ 和 Python，但是我简历上的 project 基本都是用的 Java。还好他对我的 FLite# 非常感兴趣，问了很多相关问题，估计应该也没多少申这个岗位的人搞过解释器。同时他还说很奇怪感觉所有申请者都会 JavaScript, 嗯毕竟搞一个 web application 比较容易也看上去比较高级。
 第二个环节就是问技术问题，还好不用写代码。第一个部分是 Python 的，说实话问的问题比较简单，大部分语法相关的，然而我 Python 实在用得不多（目前写过最复杂的应该就是 http client），考前准备的问题也一个没用，所以这部分答得不是很好。第二个部分是 C++， 同样大部分也是语法相关，虽然已经差不多一年多没写过了，但好歹高中是靠这个吃饭的，加上 Java 和 C++ 都是 OOP，这部分问题都答对了，除了在多线程那里答错了一个地方（“许多月后， 面对面试官，lxt 会回忆起他没有认真学习 CS2106 的那个遥远的下午”）。第三个部分是 Machine Learning，总结来说就是大寄特寄。首先我面试前考虑到可能会有机器学习的内容（在工作描述中有一句 “help machine learning developer extract data and build pipeline” ），我也准备了一点，但我没想到会要求的程度有这么多。一开始他问我有没有机器学习的经历时，我就实话实说只跟着教程用 Python 和 C++ 搞过最最最最经典堪称 Hello World 级别的 MNIST 手写数字识别。然后他开始问我机器学习的问题，前五个问题，我，一个也不会。依稀记得问了个啥算法的原理，什么 overfeed 啥的。总之他看出了我确实不怎么会这部分，就问我你不是高中搞信息竞赛吗，不是简历上写了 Strong in algoritthm 吗，那说说你觉得最有趣的算法（还是印象最深的忘了）。幸好提前准备过这一部分，于是就滔滔不绝的讲起了写起来很累都是非常爽的树链剖分 Heavy-light tree composition：能把树上的路径操作转化为区间操作，区间操作用数据结构维护，时间复杂度怎样balabala</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://x1a0teng.page/posts/about/</link>
-      <pubDate>Mon, 21 Feb 2022 00:50:50 +0800</pubDate>
-      
-      <guid>https://x1a0teng.page/posts/about/</guid>
-      <description>Hi, I am Xiaoteng. Currently a 2nd year CS undergrdaute @National University of Singapore I developed the habbit of writing blogs when I was still in high school, struggling for competitive programming as well as Gaokao.
-But later, I was lucky enough to gain a chance to study in Singapore. No more struggling for these two! Nonetheless they did have shaped me a lot. I still remember that night, my dormmates and I came back to the dormitory from classrooms at 11pm, but still discussed all the night around a prime number ring problem on an old-fashioned algorithm exercise book under dim light.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://x1a0teng.page/posts/my-first-post/</link>
-      <pubDate>Mon, 21 Feb 2022 00:50:50 +0800</pubDate>
-      
-      <guid>https://x1a0teng.page/posts/my-first-post/</guid>
-      <description>Hello World</description>
     </item>
     
   </channel>
