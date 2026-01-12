@@ -19,7 +19,7 @@ menu:
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
-Hi, I am Xiaoteng. Currently a 2nd year CS undergrdaute @National University of Singapore
+Hi, I am Xiaoteng. Currently lead software engineer at a finance company, mostly working on cloud infra and products. 
 
 I developed the habbit of writing blogs when I was still in high school, struggling for competitive programming as well as Gaokao.
 
@@ -27,8 +27,8 @@ But later, I was lucky enough to gain a chance to study in Singapore. No more st
 
 The book solved that problem in DFS. And that is my first memory with the algorithm that I used to bruteforce so many solutions later then. Though I barely use DFS now, and I've lost that exercise book long agon, I still wish I could keep that spirit of learning.
 
+I started writing poems also after I read _"Last Evenings On Earth"_ by Roberto Bolaño.
+
 If you don't mind reading my tedious words, you can check my [old blog](https://rye-catcher.github.io/). Basically solutions to some algorithm exercise and naive talkings.
 
 Btw this blog is powered by [Hugo](https://gohugo.io/) and deployed on [Firebase](https://firebase.google.com/)
-
-I am still uploading some posts from the past onto this new site.
