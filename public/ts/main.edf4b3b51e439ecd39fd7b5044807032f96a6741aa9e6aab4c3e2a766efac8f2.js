@@ -258,6 +258,10 @@
     constructor(toggleEl) {
       this.bindMatchMedia();
       this.currentScheme = this.getSavedScheme();
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches === true)
+        this.systemPreferScheme = "dark";
+      else
+        this.systemPreferScheme = "light";
       this.dispatchEvent(document.documentElement.dataset.scheme);
       if (toggleEl)
         this.bindClick(toggleEl);
@@ -342,9 +346,11 @@
     const sectionLinkRef = {};
     navigation.forEach((navigationElement) => {
       const link = navigationElement.querySelector("a");
-      const href = link.getAttribute("href");
-      if (href.startsWith("#")) {
-        sectionLinkRef[href.slice(1)] = navigationElement;
+      if (link) {
+        const href = link.getAttribute("href");
+        if (href.startsWith("#")) {
+          sectionLinkRef[href.slice(1)] = navigationElement;
+        }
       }
     });
     return sectionLinkRef;
@@ -410,6 +416,11 @@
       sectionsOffsets = computeOffsets(headers);
       scrollHandler();
     }
+    const articleContent = document.querySelector(".article-content");
+    if (articleContent) {
+      const resizeObserver = new ResizeObserver(debounced(resizeHandler));
+      resizeObserver.observe(articleContent);
+    }
     window.addEventListener("resize", debounced(resizeHandler));
   }
 
@@ -423,10 +434,12 @@
       }
       aElement.addEventListener("click", (clickEvent) => {
         clickEvent.preventDefault();
-        let targetId = aElement.getAttribute("href").substring(1);
-        let target = document.querySelector(`#${targetId.replace(":", "\\:")}`);
+        const targetId = decodeURI(aElement.getAttribute("href").substring(1)), target = document.getElementById(targetId), offset = target.getBoundingClientRect().top - document.documentElement.getBoundingClientRect().top;
         window.history.pushState({}, "", aElement.getAttribute("href"));
-        scrollTo({ top: target.offsetTop, behavior: "smooth" });
+        scrollTo({
+          top: offset,
+          behavior: "smooth"
+        });
       });
     });
   }

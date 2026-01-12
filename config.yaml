@@ -1,7 +1,8 @@
 baseurl: https://x1a0teng.page/
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+pagination:
+    pagerSize: 5
 title: Xiaoteng's Blog
 
 languages:
