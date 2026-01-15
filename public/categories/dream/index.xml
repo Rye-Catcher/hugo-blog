@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Xiaoteng&#39;s Blog</title>
-        <link>http://localhost:1313/post/</link>
-        <description>Recent content in Posts on Xiaoteng&#39;s Blog</description>
+        <title>Dream on Xiaoteng&#39;s Blog</title>
+        <link>http://localhost:1313/categories/dream/</link>
+        <description>Recent content in Dream on Xiaoteng&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 16 Jan 2026 00:09:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 16 Jan 2026 00:09:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/dream/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Wahiba_sands</title>
         <link>http://localhost:1313/p/wahiba_sands/</link>
         <pubDate>Fri, 16 Jan 2026 00:09:01 +0800</pubDate>
@@ -231,26 +231,6 @@ The air gives no answer&lt;br&gt;
 leaving me in the cage&lt;br&gt;
 chewing through&lt;br&gt;
 each second&lt;br&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>First Job Interview</title>
-        <link>http://localhost:1313/p/first-job-interview/</link>
-        <pubDate>Fri, 11 Mar 2022 14:36:05 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/first-job-interview/</guid>
-        <description>&lt;p&gt;我也没想到时间过得这么快，我也有了找实习的压力。按照 NUS 的实习要求，若是我能在这个暑期找到个三个月的实习，我剩下两年的排课就会很轻松。&lt;/p&gt;
-&lt;p&gt;于是在大约一个月前开始写简历，投简历。幸好这学期两个 Project module 加上 recess week 自己瞎搞了个网站，好歹简历上有点东西可写。&lt;/p&gt;
-&lt;p&gt;但是也许因为我的绩点实在不好看，投了十多家了没有一家给了我回复。这时我脑海里就不禁回想起初中语文补习班老师很喜欢说的一句话：“没有伞的孩子必须努力奔跑”，而绩点不好看的带学生必须努力投简历。&lt;/p&gt;
-&lt;p&gt;于是我索性把 TalentConnect 中感觉我满足了要求的实习工作都投了一遍，顺便还去领英上找了一两个位置投。终于的终于，有两家给了我回复。&lt;/p&gt;
-&lt;p&gt;A 公司呢非常怪，工作空档那里写的是 100 人。然后也没面试选拔，而是分为三个阶段：第一个阶段，HR 会用邮件发一些问题给你， 然后你回答它们再回回去； 如果过了的话，第二阶段就是公司给你个 tutorial， 让你 2 周之内用 Ruby on Rails 造一个推特出来（我寻思网上不一堆教程）。第三阶段就是去公司试用一下，也算个另类面试吧。然后现在我第一阶段问题还没写完。&lt;/p&gt;
-&lt;p&gt;B 公司则非常好，投的当天下午就通知我简历过了，准备这周五面试。&lt;/p&gt;
-&lt;p&gt;一开始邮件中标注会有 4 个人参加这个面试会议，然后到了之后发现只有一个人，而且还是之中唯一的一个中国人，直接压力就小很多。一开始就唠嗑了一下，这时我才发现原来他是并没有提前看过简历的，同时从和他的衣着与背景来看感觉他是午觉刚刚睡醒。&lt;/p&gt;
-&lt;p&gt;然后就是正式面试了，一开始他就自我介绍了一下他和整个团队是做什么的，面试会怎么进行之类的&lt;/p&gt;
-&lt;p&gt;第一个环节差不多就是自我介绍，同时针对我简历上的问题进行提问。当时呢。。。我非常蠢的忘记准备自我介绍，于是只好当场扯几句出来，基本都是简历上写着的，有点尴尬说实话。然后就让我介绍简历上的 project，比较尴尬的事是实习岗位要求的语言是 C++ 和 Python，但是我简历上的 project 基本都是用的 Java。还好他对我的 FLite# 非常感兴趣，问了很多相关问题，估计应该也没多少申这个岗位的人搞过解释器。同时他还说很奇怪感觉所有申请者都会 JavaScript, 嗯毕竟搞一个 web application 比较容易也看上去比较高级。&lt;/p&gt;
-&lt;p&gt;第二个环节就是问技术问题，还好不用写代码。第一个部分是 Python 的，说实话问的问题比较简单，大部分语法相关的，然而我 Python 实在用得不多（目前写过最复杂的应该就是 http client），考前准备的问题也一个没用，所以这部分答得不是很好。第二个部分是 C++， 同样大部分也是语法相关，虽然已经差不多一年多没写过了，但好歹高中是靠这个吃饭的，加上 Java 和 C++ 都是 OOP，这部分问题都答对了，除了在多线程那里答错了一个地方（“许多月后， 面对面试官，lxt 会回忆起他没有认真学习 CS2106 的那个遥远的下午”）。第三个部分是 Machine Learning，总结来说就是大寄特寄。首先我面试前考虑到可能会有机器学习的内容（在工作描述中有一句 “help machine learning developer extract data and build pipeline” ），我也准备了一点，但我没想到会要求的程度有这么多。一开始他问我有没有机器学习的经历时，我就实话实说只跟着教程用 Python 和 C++ 搞过最最最最经典堪称 Hello World 级别的 MNIST 手写数字识别。然后他开始问我机器学习的问题，前五个问题，我，一个也不会。依稀记得问了个啥算法的原理，什么 overfeed 啥的。总之他看出了我确实不怎么会这部分，就问我你不是高中搞信息竞赛吗，不是简历上写了 Strong in algoritthm 吗，那说说你觉得最有趣的算法（还是印象最深的忘了）。幸好提前准备过这一部分，于是就滔滔不绝的讲起了写起来很累都是非常爽的树链剖分 Heavy-light tree composition：能把树上的路径操作转化为区间操作，区间操作用数据结构维护，时间复杂度怎样balabala&lt;/p&gt;
-&lt;p&gt;最后一个部分就我问他问题，我就问了工作时间要求还有具体的工作职责的。最后他还问我对自己的表现满意吗，我就实话实话了第一次面试感觉已经比预期好了。&lt;/p&gt;
-&lt;p&gt;总之面完之后感觉机会不大，但是还是很有意义吧。&lt;/p&gt;
 </description>
         </item>
         
